@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import logo from "./img/alternate-logo-white 1 (1).png";
 
 const Navigation = () => {

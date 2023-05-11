@@ -1,6 +1,8 @@
 import Navigation from "./Navigation";
+import Main from "./Main";
 
 const Home = () => {
-  return <Navigation />;
+  return( <div><Navigation /> <Main/></div>);
+
 };
 export default Home;
