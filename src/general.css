@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-image: url(https://s3-alpha-sig.figma.com/img/f927/74bb/3bdbf8e18422577431eac9b9b77af68a?Expires=1684713600&Signature=BntsNGszzlDTB~j3etUW6FhaTTjZ8FI0RvhWS89mO~UMTK7CQ3MZcM-nM9DdN4POLRQJ3SSpn~PxayNqpRYHOFC7G-qeHn0obfVjzSwkZTebWmiZbyC2JZJStf0wG6Tvr2s71x~zSztiX~K2RrPMkijQ7~1G6A~1k54dOFmkzu7BrA~l2hDUmRbwHg63YawSb15j5cAoP3Co5woOxs6-2-8c1-nLDxbXhkk1cwwn4FFDhoM9Syd8KXMiTiWqltcL8CqSNRzzaJDLTcIsVkicR2w-2WpAVK0P2gjLwmNqIB0viYweKPiiRbrRSBa1SEbiqatFWvzXMHDsj3op~N2HbA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
