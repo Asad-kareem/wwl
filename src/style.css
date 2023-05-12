@@ -99,7 +99,8 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 0.5px solid #ADADAD
+  border-bottom: 0.5px solid #ADADAD;
+  padding-right:20px
   ;
 }
 .icon-sidebar{
@@ -118,10 +119,191 @@ fill: #101828;
   color:black;
   list-style: none;
   border-bottom: none;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 20px;
 }
 .nav-siebar-last{
 display: flex;
 flex-direction: column;
 align-items: center;
 fill:#005A5B
+}
+
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.hero{
+max-width: 140rem;
+padding:0 3.2rem;
+display:grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.section-hero {
+  font-family: 'Pridi', serif;
+  margin-top:6.7rem;
+  margin-bottom: 3.5rem;
+  
+}
+.heading-primary{
+  font-size: 3.6rem;
+  font-weight: 700;
+  color:#101828;
+}
+.heading-primary-main{
+  font-weight: 400;
+  margin-right: 7px;
+}
+
+/* RECEIPIES */
+
+
+.receipies{
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+height: 529px;
+}
+.container {
+  /* 1140px */
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #005A5B;
+  font-size: 1.4rem;
+  background: #D2D82C;
+/* WWL Green */
+
+border: 1px solid #D2D82C;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.receipie-text-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+.comments{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.comments svg{
+  margin-right: 5px;
+}
+.recp-big{
+  font-size: 19.4px;
+  font-weight: 400;
+}
+.recp-big{
+  font-size: 20px;
+  font-weight: 400;
+}
+.recp-small{
+  font-size: 14px;
+  font-weight: 400;
+}
+.recp-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-recp{
+  /* _Button base */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.87468px 16.4578px;
+gap: 6.58px;
+
+width: 161.96px;
+height: 41.96px;
+
+/* neutrals/white */
+
+background: #FFFFFF;
+border: 1.90708px solid #FF644C;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 6.58312px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 13.1662px;
+line-height: 20px;
+/* identical to box height, or 150% */
+
+
+/* WWL Orange */
+
+color: #FF644C;
+}
+.TeamReceipiePlan{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1313px;
+height: 1788px;
+left: 148px;
+top: 922px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+}
+.TeamHeading{
+  font-family: 'Pridi';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* WWL Orange */
+
+color: #FF644C;
+margin-top: 5.2rem;
+margin-left: 11.1rem;
+}
+
+.TeamHeading-descrp{
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+margin-left: 11.1rem;
 }
