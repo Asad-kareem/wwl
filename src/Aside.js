@@ -20,7 +20,6 @@ const Aside=()=>{
         </section>
         <Receipie/>
         <TeamReceipiePlan/>
-
         </div>
 
 

@@ -78,10 +78,7 @@ main{
   grid-template-columns:116px  1fr ;
   grid-template-rows:804px  1fr;
 }
-.nav-sidebar-main{
-  /* background-color: #fffcbe; */
 
-}
 .nav-sidebar-links{
   display: flex;
   justify-content: space-between;
