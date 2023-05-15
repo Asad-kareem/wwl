@@ -1,5 +1,7 @@
 import TeamReceipiePlan from "./TeamReceipiePlan";
 import Receipie from "./Receipie";
+import GlobalCusine from "./GlobalCusine";
+import Footer from "./Footer";
 const Aside=()=>{
     return(
         <div>

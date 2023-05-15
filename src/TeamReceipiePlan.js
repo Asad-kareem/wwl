@@ -1,5 +1,7 @@
 import Receipie from "./Receipie"
-
+import Catagories from "./Catagories"
+import GlobalCusine from "./GlobalCusine"
+import Footer from "./Footer"
 const TeamReceipiePlan=()=>{
 
     return(
@@ -10,6 +12,10 @@ const TeamReceipiePlan=()=>{
       <Receipie/>
       <Receipie/>
       <Receipie/>
+      <div className="btn-center-container">  <button className="btn main-nav-link ">see more</button></div>
+      <Catagories/>
+      <GlobalCusine/>
+      <Footer/>
     </section>
     )
 }
